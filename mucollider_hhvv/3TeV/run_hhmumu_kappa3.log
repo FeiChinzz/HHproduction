@@ -1,0 +1,33 @@
+nohup: ignoring input
+Starting multi-core extraction for 11 samples using 11 workers...
+Target Output: /data/mucollider/two_boosted/3TeV/scan_kappa3_hhmumu_HL_v2.h5
+--> [Started] Process run_01 (PID: 7500, kappa_3: 0.2)
+--> [Started] Process run_02 (PID: 7501, kappa_3: 0.4)
+--> [Started] Process run_04 (PID: 7503, kappa_3: 0.8)
+--> [Started] Process run_07 (PID: 7506, kappa_3: 1.1)
+--> [Started] Process run_06 (PID: 7505, kappa_3: 1.0)
+--> [Started] Process run_08 (PID: 7507, kappa_3: 1.2)
+--> [Started] Process run_11 (PID: 7510, kappa_3: 1.8)
+--> [Started] Process run_05 (PID: 7504, kappa_3: 0.9)
+--> [Started] Process run_09 (PID: 7508, kappa_3: 1.4)--> [Started] Process run_10 (PID: 7509, kappa_3: 1.6)
+
+--> [Started] Process run_03 (PID: 7502, kappa_3: 0.6)
+<-- [Finished] Process run_03: Passed 29890/100000 events | Elapsed: 949.1s
+<-- [Finished] Process run_10: Passed 26661/100000 events | Elapsed: 1344.6s
+<-- [Finished] Process run_06: Passed 28983/100000 events | Elapsed: 1440.5s
+<-- [Finished] Process run_08: Passed 28189/100000 events | Elapsed: 1586.2s
+<-- [Finished] Process run_01: Passed 30457/100000 events | Elapsed: 1592.5s
+<-- [Finished] Process run_02: Passed 30072/100000 events | Elapsed: 1659.4s
+<-- [Finished] Process run_11: Passed 25788/100000 events | Elapsed: 1688.9s
+<-- [Finished] Process run_04: Passed 29493/100000 events | Elapsed: 1692.3s
+<-- [Finished] Process run_07: Passed 28603/100000 events | Elapsed: 1702.2s
+<-- [Finished] Process run_09: Passed 27402/100000 events | Elapsed: 1710.6s
+<-- [Finished] Process run_05: Passed 29228/100000 events | Elapsed: 1717.8s
+
+======================================================================
+Merging temporary HDF5 files into final output...
+Merge successfully completed! Elapsed: 2.71s
+======================================================================
+
+All processes completed successfully! Total elapsed time: 28.69 minutes
+Final dataset saved to: /data/mucollider/two_boosted/3TeV/scan_kappa3_hhmumu_HL_v2.h5

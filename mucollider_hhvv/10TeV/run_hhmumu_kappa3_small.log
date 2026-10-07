@@ -1,0 +1,33 @@
+nohup: ignoring input
+Starting multi-core extraction for 11 samples using 11 workers...
+Target Output: /data/mucollider/two_boosted/10TeV/scan_kappa3_hhmumu_small_HL_v2.h5
+--> [Started] Process run_01 (PID: 12297, kappa_3: 0.8)
+--> [Started] Process run_02 (PID: 12298, kappa_3: 0.84)
+--> [Started] Process run_03 (PID: 12299, kappa_3: 0.88)
+--> [Started] Process run_04 (PID: 12300, kappa_3: 0.92)
+--> [Started] Process run_05 (PID: 12301, kappa_3: 0.96)
+--> [Started] Process run_06 (PID: 12302, kappa_3: 1.0)
+--> [Started] Process run_08 (PID: 12304, kappa_3: 1.08)--> [Started] Process run_07 (PID: 12303, kappa_3: 1.04)
+
+--> [Started] Process run_09 (PID: 12305, kappa_3: 1.12)
+--> [Started] Process run_10 (PID: 12306, kappa_3: 1.16)
+--> [Started] Process run_11 (PID: 12307, kappa_3: 1.2)
+<-- [Finished] Process run_06: Passed 24521/100000 events | Elapsed: 1229.7s
+<-- [Finished] Process run_11: Passed 23218/100000 events | Elapsed: 1350.2s
+<-- [Finished] Process run_09: Passed 23590/100000 events | Elapsed: 1362.2s
+<-- [Finished] Process run_08: Passed 24056/100000 events | Elapsed: 1370.5s
+<-- [Finished] Process run_04: Passed 24788/100000 events | Elapsed: 1394.8s
+<-- [Finished] Process run_05: Passed 24532/100000 events | Elapsed: 1416.8s
+<-- [Finished] Process run_01: Passed 25497/100000 events | Elapsed: 1444.0s
+<-- [Finished] Process run_07: Passed 24250/100000 events | Elapsed: 1514.8s
+<-- [Finished] Process run_03: Passed 24793/100000 events | Elapsed: 1565.3s
+<-- [Finished] Process run_10: Passed 23332/100000 events | Elapsed: 1571.1s
+<-- [Finished] Process run_02: Passed 24953/100000 events | Elapsed: 1604.3s
+
+======================================================================
+Merging temporary HDF5 files into final output...
+Merge successfully completed! Elapsed: 2.30s
+======================================================================
+
+All processes completed successfully! Total elapsed time: 26.79 minutes
+Final dataset saved to: /data/mucollider/two_boosted/10TeV/scan_kappa3_hhmumu_small_HL_v2.h5

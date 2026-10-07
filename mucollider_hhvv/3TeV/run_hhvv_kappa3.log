@@ -1,0 +1,33 @@
+nohup: ignoring input
+Starting multi-core extraction for 11 samples using 11 workers...
+Target Output: /data/mucollider/two_boosted/3TeV/scan_kappa3_hhvv_HL_v2.h5
+--> [Started] Process run_07 (PID: 6665, kappa_3: 1.1)
+--> [Started] Process run_08 (PID: 6666, kappa_3: 1.2)
+--> [Started] Process run_09 (PID: 6667, kappa_3: 1.4)
+--> [Started] Process run_10 (PID: 6668, kappa_3: 1.6)
+--> [Started] Process run_11 (PID: 6669, kappa_3: 1.8)
+--> [Started] Process run_01 (PID: 6659, kappa_3: 0.2)--> [Started] Process run_03 (PID: 6661, kappa_3: 0.6)--> [Started] Process run_02 (PID: 6660, kappa_3: 0.4)--> [Started] Process run_04 (PID: 6662, kappa_3: 0.8)
+
+--> [Started] Process run_05 (PID: 6663, kappa_3: 0.9)--> [Started] Process run_06 (PID: 6664, kappa_3: 1.0)
+
+
+
+<-- [Finished] Process run_08: Passed 28691/100000 events | Elapsed: 1022.6s
+<-- [Finished] Process run_05: Passed 30244/100000 events | Elapsed: 1213.9s
+<-- [Finished] Process run_11: Passed 26139/100000 events | Elapsed: 1405.9s
+<-- [Finished] Process run_09: Passed 27792/100000 events | Elapsed: 1418.8s
+<-- [Finished] Process run_06: Passed 29915/100000 events | Elapsed: 1431.2s
+<-- [Finished] Process run_10: Passed 26736/100000 events | Elapsed: 1486.6s
+<-- [Finished] Process run_03: Passed 31084/100000 events | Elapsed: 1502.4s
+<-- [Finished] Process run_04: Passed 30724/100000 events | Elapsed: 1559.5s
+<-- [Finished] Process run_07: Passed 29278/100000 events | Elapsed: 1582.3s
+<-- [Finished] Process run_02: Passed 31181/100000 events | Elapsed: 1593.9s
+<-- [Finished] Process run_01: Passed 31737/100000 events | Elapsed: 1599.5s
+
+======================================================================
+Merging temporary HDF5 files into final output...
+Merge successfully completed! Elapsed: 2.76s
+======================================================================
+
+All processes completed successfully! Total elapsed time: 26.72 minutes
+Final dataset saved to: /data/mucollider/two_boosted/3TeV/scan_kappa3_hhvv_HL_v2.h5

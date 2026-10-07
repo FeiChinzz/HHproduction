@@ -1,0 +1,42 @@
+nohup: ignoring input
+啟動多核心批次運算，使用核心數 (Workers): 10
+--> [開始] Process jjBG (PID: 8344)
+--> [開始] Process ttBG (PID: 8345)
+--> [開始] Process bbBG (PID: 8346)
+--> [開始] Process wwBG (PID: 8347)
+--> [開始] Process wwvvBG (PID: 8348)
+--> [開始] Process zzBG (PID: 8349)
+--> [開始] Process zzvvBG (PID: 8350)
+--> [開始] Process hzvvBG (PID: 8351)
+/usr/local/lib/python3.8/dist-packages/awkward/array/base.py:394: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return cls.numpy.array(value, copy=False)
+/usr/local/lib/python3.8/dist-packages/awkward/array/base.py:394: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return cls.numpy.array(value, copy=False)
+/usr/local/lib/python3.8/dist-packages/awkward/array/base.py:394: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return cls.numpy.array(value, copy=False)
+/usr/local/lib/python3.8/dist-packages/awkward/array/base.py:394: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return cls.numpy.array(value, copy=False)
+<-- [完成] Process wwBG: 通過 15/500000 筆 | 耗時: 134.4s
+<-- [完成] Process zzBG: 通過 37/500000 筆 | 耗時: 159.4s
+/usr/local/lib/python3.8/dist-packages/awkward/array/base.py:394: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return cls.numpy.array(value, copy=False)
+/usr/local/lib/python3.8/dist-packages/awkward/array/base.py:394: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return cls.numpy.array(value, copy=False)
+/usr/local/lib/python3.8/dist-packages/awkward/array/base.py:394: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return cls.numpy.array(value, copy=False)
+/usr/local/lib/python3.8/dist-packages/awkward/array/base.py:394: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return cls.numpy.array(value, copy=False)
+<-- [完成] Process jjBG: 通過 9084/500000 筆 | 耗時: 691.9s
+<-- [完成] Process wwvvBG: 通過 60046/500000 筆 | 耗時: 761.3s
+<-- [完成] Process bbBG: 通過 9753/500000 筆 | 耗時: 774.6s
+<-- [完成] Process ttBG: 通過 17450/500000 筆 | 耗時: 963.3s
+<-- [完成] Process zzvvBG: 通過 76459/500000 筆 | 耗時: 1056.0s
+<-- [完成] Process hzvvBG: 通過 70120/500000 筆 | 耗時: 1229.0s
+
+============================================================
+正在將所有 Worker 的暫存檔案合併為單一 HDF5 檔案...
+合併完成！耗時: 2.09 秒
+============================================================
+
+全部運算與儲存完畢！總耗時: 20.57 分鐘
+最終輸出檔案: /data/mucollider/two_boosted/10TeV/data_HLfeature_v2.h5
