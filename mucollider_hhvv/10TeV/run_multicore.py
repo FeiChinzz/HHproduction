@@ -17,7 +17,7 @@ TEMP_DIR = '/data/mucollider/two_boosted/10TeV/temp_h5_parts'
 JET_NAME = 'VLCjetR10N2'
 
 # 設定要使用的 CPU 核心數（例如保留 2 核給系統，或手動指定如 NUM_WORKERS = 8）
-NUM_WORKERS = 10
+NUM_WORKERS = 32
 
 SAMPLES = [
     {'name': 'jjBG',    'path': '/data/mucollider/two_boosted/10TeV/jjBG_ptcut_500K/delphes_output_v2.root', 'sigbg': 0.0, 'everytype': 2.0},
