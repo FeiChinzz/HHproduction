@@ -1,0 +1,23 @@
+nohup: ignoring input
+Starting multi-core extraction for 6 samples using 6 workers...
+Target Output: /data/mucollider/two_boosted/3TeV/scan_kappa2V_kappa3_hhmumu_HL_v2.h5
+--> [Started] Process run_01 (PID: 681, kappa_3: 0.8, kappa_2V: 0.9)
+--> [Started] Process run_02 (PID: 682, kappa_3: 0.8, kappa_2V: 1.1)
+--> [Started] Process run_03 (PID: 683, kappa_3: 1.0, kappa_2V: 0.9)
+--> [Started] Process run_04 (PID: 684, kappa_3: 1.0, kappa_2V: 1.1)
+--> [Started] Process run_05 (PID: 685, kappa_3: 1.2, kappa_2V: 0.9)
+--> [Started] Process run_06 (PID: 686, kappa_3: 1.2, kappa_2V: 1.1)
+<-- [Finished] Process run_02: Passed 36140/100000 events | Elapsed: 876.5s
+<-- [Finished] Process run_04: Passed 41618/100000 events | Elapsed: 907.2s
+<-- [Finished] Process run_03: Passed 40518/100000 events | Elapsed: 1017.0s
+<-- [Finished] Process run_05: Passed 40890/100000 events | Elapsed: 1100.9s
+<-- [Finished] Process run_01: Passed 40309/100000 events | Elapsed: 1139.7s
+<-- [Finished] Process run_06: Passed 46024/100000 events | Elapsed: 1156.8s
+
+======================================================================
+Merging temporary HDF5 files into final output...
+Merge successfully completed! Elapsed: 2.07s
+======================================================================
+
+All processes completed successfully! Total elapsed time: 19.33 minutes
+Final dataset saved to: /data/mucollider/two_boosted/3TeV/scan_kappa2V_kappa3_hhmumu_HL_v2.h5
